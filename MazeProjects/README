@@ -1,0 +1,16 @@
+For this project to work on your own local system, there are two file paths that need to be changed.
+Inside MazeSolver.py, there needs to be a change for the file path to chromedriver on line 26
+The second change is to insert the path to your download folder which would be on line 39
+As for the rest, simply having the libraries will be sufficient to run the code
+
+
+HOW DOES THE PROGRAM WORK AFTER RUNNING?
+
+1. Copy Paste (Ctr+C) the entirety of the Maze.js File
+2. Once the webpage loads, it will automatically open the inspect element window
+3. Simply click on console. Choose the mode you would like the program to solve on the website on the left (Anything except Roads Mode)
+4. After selecting the mode, make sure to not disrupt the position of the player, and simply paste the Maze.js code into the console
+5. After pasting and entering, simply close out of the inspect element window, and the player should start moving within 3~4 seconds
+6. After the player finishes, the window will automatically close within ~2 seconds
+7. Afterwards, the program will delete the downloaded CSV file. 
+8. If you close out of the program too early, you may have to manually delete the CSV file from downloads.
